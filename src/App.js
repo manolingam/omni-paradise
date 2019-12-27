@@ -32,9 +32,8 @@ function WelcomePage() {
 }
 
 function App() {
-	console.log(process.env.PUBLIC_URL);
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<Router>
 			<Switch>
 				<Route exact path='/' component={WelcomePage}></Route>
 				<Route exact path='/home' component={Home}></Route>

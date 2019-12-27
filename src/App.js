@@ -33,7 +33,7 @@ function WelcomePage() {
 
 function App() {
 	return (
-		<Router>
+		<Router basename='/omni-paradise'>
 			<Switch>
 				<Route exact path='/' component={WelcomePage}></Route>
 				<Route exact path='/home' component={Home}></Route>

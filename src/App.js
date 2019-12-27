@@ -37,7 +37,7 @@ function App() {
 			<Switch>
 				<Route
 					exact
-					path='omni-paradise/'
+					path='/omni-paradise/'
 					component={WelcomePage}
 				></Route>
 				<Route exact path='omni-paradise/home' component={Home}></Route>

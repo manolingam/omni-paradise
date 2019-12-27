@@ -35,14 +35,30 @@ function App() {
 	return (
 		<Router>
 			<Switch>
-				<Route exact path='/' component={WelcomePage}></Route>
-				<Route exact path='/home' component={Home}></Route>
-				<Route path='/home/wallet' component={Wallet}></Route>
-				<Route path='/home/page' component={Page}></Route>
-				<Route path='/home/farm' component={Farm}></Route>
-				<Route path='/home/whiteboard' component={WhiteBoard}></Route>
-				<Route path='/home/people' component={People}></Route>
-				<Route path='/home/party' component={Party}></Route>
+				<Route
+					exact
+					path='omni-paradise/'
+					component={WelcomePage}
+				></Route>
+				<Route exact path='omni-paradise/home' component={Home}></Route>
+				<Route
+					path='omni-paradise/home/wallet'
+					component={Wallet}
+				></Route>
+				<Route path='omni-paradise/home/page' component={Page}></Route>
+				<Route path='omni-paradise/home/farm' component={Farm}></Route>
+				<Route
+					path='omni-paradise/home/whiteboard'
+					component={WhiteBoard}
+				></Route>
+				<Route
+					path='omni-paradise/home/people'
+					component={People}
+				></Route>
+				<Route
+					path='omni-paradise/home/party'
+					component={Party}
+				></Route>
 			</Switch>
 		</Router>
 	);

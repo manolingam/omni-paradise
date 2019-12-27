@@ -11,7 +11,7 @@ const Party = () => {
 				justifyContent: 'center'
 			}}
 		>
-			<img src={under_progress} alt='' />
+			<p>Under progress!</p>
 		</div>
 	);
 };

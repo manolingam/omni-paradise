@@ -14,13 +14,16 @@
 		"react-dom": "^16.12.0",
 		"react-router-dom": "^5.1.2",
 		"react-scripts": "3.3.0",
-		"styled-components": "^4.4.1"
+		"styled-components": "^4.4.1",
+		"homepage": "https://manolingam.github.io/omni-paradise"
 	},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -38,6 +41,7 @@
 		]
 	},
 	"devDependencies": {
+		"gh-pages": "^2.1.1",
 		"tachyons": "^4.10.0"
 	}
 }
